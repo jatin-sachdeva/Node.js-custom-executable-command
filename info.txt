@@ -1,0 +1,23 @@
+What was new and has to be learned:
+1. CJS vs ES ie require vs import
+
+
+
+
+
+Major steps involved in constructing the application:
+
+**STEP2** : initialise a node project using npm init --y (flag denotes default settings)
+-- it will create package.json file that will contain all the useful info and settings related to project
+
+**STEP3**  : now to execute the js file as executable command on cmd line, add  the command 
+-(that should be used as executable command) in the bin property in package.json
+- the key will be command name and value will be the file to be executed
+
+**STEP4** :  link our project so that the .js file set as executable can be run globally across
+-- any directory
+
+ **STEP5** : using parralal chained promises and methods of FS to descriminate the fiiles
+-- and folders
+
+**STEP6** : color coding the console log using 'chalk module'
